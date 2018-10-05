@@ -426,7 +426,6 @@ body .wrapper .author p span {
 .three .project-content .second {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 100%;
   text-align: center;
   font-size: 8.5rem;
   font-weight: 700;

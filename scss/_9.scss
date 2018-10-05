@@ -1,0 +1,15 @@
+.nine {
+    .project-content {
+        .sample-text {
+            line-height: 1;
+            text-align: justify;
+            background-image: url(../img/9/1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 45% 0;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #333;
+            // -webkit-text-fill-color: transparent;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@mixin transformCenter($position, $top, $left, $transform) {
+    position: $position;
+    left: $left;
+    top: $top;
+    transform: $transform;
+}

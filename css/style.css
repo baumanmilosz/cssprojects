@@ -885,4 +885,70 @@ body .wrapper .author p span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #333;
 }
+
+.ten .project-content {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#757F9A), to(#D7DDE8));
+  background-image: linear-gradient(#757F9A, #D7DDE8);
+  margin: 0 auto;
+  color: white;
+}
+
+.ten .project-content .checkbox {
+  display: none;
+  opacity: 0;
+}
+
+.ten .project-content .checkbox:checked ~ .switch {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a8e063), to(#56ab2f));
+  background-image: linear-gradient(90deg, #a8e063, #56ab2f);
+}
+
+.ten .project-content .checkbox:checked ~ .switch .circle {
+  left: 97%;
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+}
+
+.ten .project-content .checkbox:checked ~ .switch .circle::before {
+  content: 'ON';
+  color: green;
+}
+
+.ten .project-content .switch {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+  height: 70px;
+  border-radius: 40px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#F62B00), to(#FDC830));
+  background-image: linear-gradient(90deg, #F62B00, #FDC830);
+}
+
+.ten .project-content .switch .circle {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.ten .project-content .switch .circle::before {
+  content: 'OFF';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+.ten {
+  .project-content {
+    background-image: linear-gradient(#757F9A, #D7DDE8);
+    margin: 0 auto;
+    color: white;
+
+    .checkbox {
+      display: none;
+      opacity: 0;
+
+      &:checked~.switch {
+        background-image: linear-gradient(90deg, #a8e063, #56ab2f);
+
+
+        & .circle {
+          left: 97%;
+          transform: translate(-100%, -50%);
+
+          &::before {
+            content: 'ON';
+            color: green;
+          }
+        }
+      }
+    }
+
+    .switch {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+      height: 70px;
+      border-radius: 40px;
+      background-image: linear-gradient(90deg, #F62B00, #FDC830);
+
+      & .circle {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        transform: translate(0, -50%);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #fff;
+        transition: .4s;
+
+        &::before {
+          content: 'OFF';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 1.5rem;
+          color: red;
+        }
+      }
+    }
+  }
+}

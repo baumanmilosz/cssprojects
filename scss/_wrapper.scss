@@ -18,7 +18,7 @@ body {
     .page-header {
         position: relative;
         height: 100vh;
-        background-image: linear-gradient(to bottom left, #D66D75, #E29587);
+        background-image: linear-gradient(#0079C2, #30308E);
         overflow: hidden;
 
         .text-header {
@@ -108,7 +108,7 @@ body {
     body {
         .page-header {
             height: 30vh;
-            background-image: linear-gradient(to bottom left, #D66D75, #E29587);
+            background-image: linear-gradient(#0079C2, #30308E);
             border-bottom: 5px solid #fff;
 
             .text-header {

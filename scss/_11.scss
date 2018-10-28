@@ -1,0 +1,74 @@
+.eleven {
+  .project-content {
+    position: relative;
+    background-color: #bae1ff;
+
+    // h2 {
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    //   transform: translate(-50%, -50%);
+    //   animation: fade 2s infinite linear alternate;
+    // }
+
+    .load-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .check {
+        display: none;
+      }
+
+      .out {
+        position: relative;
+        display: block;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 8px solid #fff;
+        border-top-color: transparent;
+        animation: loadUp .5s infinite linear;
+
+        .in {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 8px solid #fff;
+          border-bottom-color: transparent;
+        }
+      }
+
+      @keyframes loadUp {
+        0% {}
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      // @keyframes fade {
+      //   0% {
+      //     opacity: .2;
+      //   }
+
+      //   25% {
+      //     opacity: .2;
+      //   }
+
+      //   75% {
+      //     opacity: 1;
+      //   }
+
+      //   100% {
+      //     opacity: 1;
+      //   }
+      // }
+    }
+  }
+}

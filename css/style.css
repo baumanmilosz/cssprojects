@@ -1011,4 +1011,94 @@ body .wrapper .author p span {
             transform: rotate(360deg);
   }
 }
+
+.twelve .project-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
+.twelve .project-content .social-list {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.twelve .project-content .social-list .social-list-item:nth-child(1) a:hover::before {
+  background-color: #3b5998;
+}
+
+.twelve .project-content .social-list .social-list-item:nth-child(2) a:hover::before {
+  background-color: #1dcaff;
+}
+
+.twelve .project-content .social-list .social-list-item:nth-child(3) a:hover::before {
+  background-color: #bc2a8d;
+}
+
+.twelve .project-content .social-list .social-list-item:nth-child(4) a:hover::before {
+  background-color: #ff0000;
+}
+
+.twelve .project-content .social-list .social-list-item a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 70px;
+  font-size: 4rem;
+  color: #000;
+  border-radius: 50%;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.twelve .project-content .social-list .social-list-item a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: lightblue;
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.twelve .project-content .social-list .social-list-item a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.twelve .project-content .social-list .social-list-item a:hover {
+  color: #fff;
+}
+
+.twelve .project-content .social-list .social-list-item a i {
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */

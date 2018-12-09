@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand");
 * {
   margin: 0;
   padding: 0;
@@ -1100,5 +1101,69 @@ body .wrapper .author p span {
 
 .twelve .project-content .social-list .social-list-item a i {
   z-index: 1;
+}
+
+.thirteen .project-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000;
+}
+
+.thirteen .project-content .shining-text {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 5rem;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#000), color-stop(#fff), to(#000));
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.05);
+  -webkit-animation: shine 5s linear infinite;
+          animation: shine 5s linear infinite;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes shine {
+  0% {
+    background-position: -500%;
+  }
+  25% {
+    background-position: 500%;
+  }
+  50% {
+    background-position: 500%;
+  }
+  75% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: -500%;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: -500%;
+  }
+  25% {
+    background-position: 500%;
+  }
+  50% {
+    background-position: 500%;
+  }
+  75% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: -500%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

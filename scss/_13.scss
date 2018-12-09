@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+.thirteen {
+
+  .project-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+
+    .shining-text {
+      font-family: 'Patrick Hand', cursive;
+      font-size: 5rem;
+      color: #fff;
+      background: linear-gradient(90deg, #000, #fff, #000);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0.05);
+      animation: shine 5s linear infinite;
+      text-transform: uppercase;
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: -500%;
+      }
+
+      25% {
+        background-position: 500%;
+      }
+
+      50% {
+        background-position: 500%;
+      }
+
+      75%{
+        background-position: -500%;
+      }
+      
+      100% {
+        background-position: -500%;
+      }
+    }
+  }
+}

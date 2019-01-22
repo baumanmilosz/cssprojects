@@ -12,7 +12,7 @@ I have a lot of motivation that get first job like Frontend Developer. I wanted 
 * RWD - Media Queries
 
 ## Setup
-Link to demo: https://mimi9297.github.io/cssprojects/.
+Link to demo: https://baumanmilosz.github.io/cssprojects/.
 
 ## Status
 Projects is in progress.

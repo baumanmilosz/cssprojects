@@ -24,4 +24,4 @@ Project inspired by Matthias Martin.
 
 ## Contact
 
-Created by @mimi9297!
+Created by @MBauman!
